@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SBHS Science Olympaid</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <link rel="stylesheet" href="/media-queries.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <ul class="nav">
+      <li class="navitem"><a class="navbar-item" href="https://cookiepie1.github.io/index.html">Home</a></li>
+      <li class="navitem"><a class="navbar-item" href="https://cookiepie1.github.io/about.html">About</a></li>
+      <li class="navitem"><a class="navbar-item" href="https://cookiepie1.github.io/events.html">Events</a></li>
+      <li class="navitem"><a class="navbar-item" href="https://cookiepie1.github.io/faq.html">FAQ</a></li>
+      <li class="navitem"><a class="navbar-item" href="https://cookiepie1.github.io/contact.html">Contact</a></li>
+      <li class="navitem"><a class="navbar-item" href="https://cookiepie1.github.io/why.html">Why Choose Science Olympiad?</a></li>
+    </ul>
+<section>
+  <img class="mySlides" src="https://cdn.glitch.com/322d141a-2633-46f3-b466-8f3e4a3ecb28%2Fimg1.JPG?1554586613511" style="width:100%">
+  <img class="mySlides" src="https://cdn.glitch.com/322d141a-2633-46f3-b466-8f3e4a3ecb28%2Fimg2.jpg?1554586613626" style="width:100%">
+  <img class="mySlides" src="https://cdn.glitch.com/322d141a-2633-46f3-b466-8f3e4a3ecb28%2Fimg3.JPG?1554586613956" style="width:100%">
+</section>
+    <script>
+      var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 4000); 
+}
+    </script>
+    <div id="main">
+      <h1 id="welcomeTitle"><center>Welcome to Science Olympiad!!</center></h1>
+      <p id="mainDescription">
+        <center>Hey there! We are from the South Brunswick High School Science Olympiad team. We are a competitive STEM team that competes in various competitions from December-March.
+          Science Olympiad is a nationally recognized series of competitions, and is a very fulfilling experience, where students will explore science, and also develop new friendships and improve teamwork skills. 
+        Our season starts in the spring, when we host tryouts. We will do some studying throughout the summer, but the bulk of our work happens in the late fall and during the winter.
+        We compete in several different events in different areas such as engineering, design, biology, chemistry, physics, and events relating to the inquiry and nature of science. 
+        Science Olympiad is a team activity, where teamwork is perhaps more important than the events themselves. Success is dependent heavily on teamwork, which can make or break a team. 
+      </p>
+    </div>
+  </body>
+
+</html>
