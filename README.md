@@ -1,5 +1,5 @@
-# CookiePie1.github.io
+# SBHS Science Olympiad
 
-Our project for HackSB 2019. 
+_The official website of the South Brunswick High School Science Olympiad Team. _
 
-Website for the SBHS Science Olympiad Team. Created by Jinay Shah and John Yang. 
+Website by John Yang and Jinay Shah
