@@ -1,1 +1,12 @@
+body, html {
+  height: 100%;
+}
 
+.bg { 
+  /* Photo by Benjamin Voros */ 
+  background-image: url("https://cdn.glitch.com/322d141a-2633-46f3-b466-8f3e4a3ecb28%2Fimage.png?1555460283875");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
