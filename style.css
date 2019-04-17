@@ -19,8 +19,8 @@ body, html {
 }
 
 .text-block {
-  position: absolute; 
-  bottom: 20px;   
+  position: absolute !important; 
+  bottom: 20px !important;   
 }
 
 blockquote {
