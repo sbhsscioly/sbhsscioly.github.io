@@ -20,7 +20,7 @@ body, html {
 
 .text-block {
   position: absolute !important; 
-  bottom: 20px !important;  
+  bottom: 1.5rem !important;  
   text-align: center;
 }
 
