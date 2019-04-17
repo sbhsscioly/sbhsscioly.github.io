@@ -13,7 +13,7 @@ body, html {
   background-size: cover;
 }
 
-.custom-container {
+.container {
   position: relative;
   text-align: center;
 }
