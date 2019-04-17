@@ -17,5 +17,5 @@ body, html {
 
 .text-block {
   position: absolute; 
-  
+  bottom: 20px;   
 }
