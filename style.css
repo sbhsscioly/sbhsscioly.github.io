@@ -10,3 +10,15 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
