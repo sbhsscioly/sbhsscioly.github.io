@@ -15,13 +15,6 @@ body, html {
 
 .container {
   position: relative;
-  text-align: center;
-}
-
-.text-block {
-  position: absolute !important; 
-  bottom: 1.5rem !important;  
-  text-align: center;
 }
 
 .centered {
