@@ -18,7 +18,7 @@ body, html {
   text-align: center;
 }
 
-.text-block {
+#text-block-1 {
   position: absolute !important; 
   bottom: 1.5rem !important;  
   text-align: center;
