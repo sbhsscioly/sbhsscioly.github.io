@@ -15,3 +15,27 @@ body, html {
 .container {
   position: relative;
 }
+
+@media (max-width: 767.98px) { 
+  
+  #issue-form {
+   width: 100%;
+  }
+  
+  #contact-form {
+   width:100%; 
+  }
+}
+
+@media (min-width: 768px) {
+  
+  #issue-form{
+    width: 640px;
+    height: 537px;
+  }
+  
+  #contact-form {
+    width: 640px;
+    height: 929px;
+  }
+}
