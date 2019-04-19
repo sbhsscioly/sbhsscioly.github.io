@@ -27,11 +27,15 @@ body, html {
     width: 100%;
     height: 40vh;
   }
+  
+  #penn-img {
+    width: 100% 
+  }
 }
 
 @media (min-width: 768px) {
   
-  #interest-form{
+  #interest-form {
     width: 640px;
     height: 1057px;
   }
@@ -39,5 +43,9 @@ body, html {
   #resources-video {
     width: 30vw;
     height: 16.875vw;
+  }
+  
+  #penn-img {
+    width: 400px; 
   }
 }
