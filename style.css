@@ -37,7 +37,7 @@ body, html {
   }
   
   #resources-video {
-    width: 100%;
-    height: 56.25%;
+    width: 45vw;
+    height: 25.3125vw;
   }
 }
