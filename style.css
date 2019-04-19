@@ -22,6 +22,11 @@ body, html {
    width: 100%;
    height: 165vh; 
   }
+  
+  #resources-video {
+    width: 100%;
+    height: 56.25%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -29,5 +34,10 @@ body, html {
   #interest-form{
     width: 640px;
     height: 1057px;
+  }
+  
+  #resources-video {
+    width: 560px;
+    height: 315px;
   }
 }
