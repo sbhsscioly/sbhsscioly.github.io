@@ -32,12 +32,12 @@ body, html {
 @media (min-width: 768px) {
   
   #interest-form{
-    width: 560.56px;
-    height: 996.55111111111px;
+    width: 640px;
+    height: 1057px;
   }
   
   #resources-video {
-    width: 1069px;
-    height: 601.5625px;
+    width: 100%;
+    height: 56.25%;
   }
 }
