@@ -46,18 +46,18 @@
       <h1 class="display-3 text-warning bg-transparent text-center">Contact Us</h1>
       <div class="bg-light rounded text-left text-dark m-3 p-3">
         <h4>Send us an email (<a href="mailto:sbhsscioly@gmail.com">sbhsscioly@gmail.com</a>)</h4>
-          <form action="mailto:sbhsscioly@gmail.com" method="post" enctype="text/plain">
+          <form action="email.php" method="post" enctype="text/plain">
             <div class="form-group">
               <label>Name</label>
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" name="Name" placeholder="Your Name">
             </div>
             <div class="form-group">
               <label>Email address</label>
-              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+              <input type="email" class="form-control" name="email" placeholder="Enter email">
             </div>
             <div class="form-group">
               <label>Message</label>
-              <textarea class="form-control" rows="4"></textarea>
+              <textarea class="form-control" rows="4" name="message"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
