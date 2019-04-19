@@ -49,7 +49,13 @@
         <div class="bg-light rounded text-left text-dark m-3 p-3">
           <h4>Send us an email (<a href="mailto:sbhsscioly@gmail.com">sbhsscioly@gmail.com</a>)</h4>
           <p>This is the preferred contact method. <br><em>Please include your full name in the subject. </em></p>
-          <p>Under construction</p>
+          <form action="mail.php" method="POST">
+            <p>Name</p> <input type="text" name="name">
+            <p>Email</p> <input type="text" name="email">
+            <p>Phone</p> <input type="text" name="phone">
+            <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br>
+            <input type="submit" value="Send"><input type="reset" value="Clear">
+            </form>
           <br><br>
           <h6>Contact Mr. Noble for coach-related inquiries:</h6>
           <p><a href="mailto:john.noble@sbschools.org">john.noble@sbschools.org</a></p>
